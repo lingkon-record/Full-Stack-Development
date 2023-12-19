@@ -18,3 +18,12 @@ hsla(hue, saturation, lightness, alpha)
 
 Hexadecimal : 6 or 3 digit
 #000000 , #ffffff
+
+
+❤️ 
+background-color
+background-image
+background-repeat
+background-attachment
+background-position
+background (shorthand property)
