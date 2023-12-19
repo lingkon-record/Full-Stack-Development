@@ -1,0 +1,24 @@
+01 ❤️  3 ways of adding css in projects.
+External CSS
+Internal CSS
+Inline CSS
+
+
+02 ❤️  Selectors : 4 types....
+selector selects the HTML element(s) you want to style.
+
+
+Simple : class, id, name
+Pseudo-classes: selector:pseudo-class { mouse hover }
+Pseudo-element: p::first-line {}
+attribute : a[target] { }
+👇Combinator : 👇
+descendant selector (space)
+child selector (>)
+adjacent sibling selector (+)
+general sibling selector (~)
+
+
+
+03 ❤️  Comments
+/* tags */
