@@ -1,0 +1,20 @@
+❤️  Colors Syntax 
+
+color:Tomato
+background-color:Tomato;
+border: 2px solid Tomato;
+
+
+❤️  Colors Declare 
+RGB, HEX, HSL, RGBA, HSLA values.
+
+rgb(255, 99, 71)
+rgba(200, 255, 71, 0.5)
+rgba(red, green, blue, alpha) : alpha is color opacity....
+
+hsl(hue, saturation, lightness)
+hsl(9, 100%, 64%)
+hsla(hue, saturation, lightness, alpha)
+
+Hexadecimal : 6 or 3 digit
+#000000 , #ffffff
