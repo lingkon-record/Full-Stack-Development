@@ -1,0 +1,22 @@
+CSS ==== Cascading Style Sheets.....
+
+CSS is the language we use to style an HTML document.
+
+CSS describes how HTML elements should be displayed
+
+CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+
+CSS saves a lot of work. It can control the layout of multiple web pages all at once..
+
+
+
+Note That 👇👇👇👇
+
+HTML was NEVER intended to contain tags for formatting a web page!
+HTML was created to describe the content of a web page.
+
+To solve this problem, the World Wide Web Consortium (W3C) created CSS.
+CSS removed the style formatting from the HTML page!
+
+
+
