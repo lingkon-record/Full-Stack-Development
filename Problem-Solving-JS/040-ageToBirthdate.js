@@ -1,5 +1,4 @@
- 
-
+// age type then see birth year.
 function convertAgeToDate(age) {
   const currentYear = new Date().getFullYear();
   const birthYear = currentYear - age;
