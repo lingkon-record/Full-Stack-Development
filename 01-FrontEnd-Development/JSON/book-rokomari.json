@@ -1,0 +1,64 @@
+{
+  "books": [
+    {
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "isbn": "9780061120084",
+      "publisher": "HarperCollins",
+      "publicationDate": "July 11, 1960",
+      "genre": "Fiction",
+      "description": "A novel set in the American South during the 1930s, focusing on the themes of racial injustice and moral growth.",
+      "coverImage": "https://images-na.ssl-images-amazon.com/images/I/91d7%2BKf%2B8hL.jpg",
+      "format": "Paperback",
+      "price": 10.99,
+      "discountPercentage": 10,
+      "availability": true,
+      "stockQuantity": 100,
+      "language": "English",
+      "pages": 281,
+      "ratings": 4.5,
+      "reviews": [
+        {
+          "username": "booklover123",
+          "rating": 5,
+          "comment": "An absolute masterpiece!"
+        },
+        {
+          "username": "avidreader456",
+          "rating": 4,
+          "comment": "Great read, highly recommended."
+        }
+      ]
+    },
+    {
+      "title": "1984",
+      "author": "George Orwell",
+      "isbn": "9780451524935",
+      "publisher": "Signet Classics",
+      "publicationDate": "June 8, 1949",
+      "genre": "Dystopian Fiction",
+      "description": "A dystopian novel set in a totalitarian society, exploring themes of government surveillance, propaganda, and individual freedom.",
+      "coverImage": "https://images-na.ssl-images-amazon.com/images/I/81PWA2qLptL.jpg",
+      "format": "Hardcover",
+      "price": 14.99,
+      "discountPercentage": 15,
+      "availability": true,
+      "stockQuantity": 50,
+      "language": "English",
+      "pages": 328,
+      "ratings": 4.7,
+      "reviews": [
+        {
+          "username": "dystopiaguru",
+          "rating": 5,
+          "comment": "A chilling portrayal of a totalitarian regime."
+        },
+        {
+          "username": "bookworm88",
+          "rating": 4,
+          "comment": "Thought-provoking and impactful."
+        }
+      ]
+    }
+  ]
+}
