@@ -1,0 +1,94 @@
+[
+  {
+    "Name": "ASIF",
+    "DateOfBirth": "1995-05-15",
+    "Age": 26,
+    "Hometown": "CityA",
+    "Country": "CountryX",
+    "District": "District1",
+    "FatherName": "ASIF Sr.",
+    "MotherName": "ASIF Mother",
+    "MobileNo": "111-222-3333",
+    "BloodGroup": "A+",
+    "NationalID": "ID123456",
+    "Passport": "P12345",
+    "DrivingLicense": "DL111",
+    "BirthCertificate": "BC98765",
+    "Height": "5'10\"",
+    "Weight": 160,
+    "MaritalStatus": "Single",
+    "Education": {
+      "Graduation": "Bachelor of Arts",
+      "Results": "High Honors"
+    }
+  },
+  {
+    "Name": "MAHIR",
+    "DateOfBirth": "1990-02-20",
+    "Age": 32,
+    "Hometown": "CityB",
+    "Country": "CountryY",
+    "District": "District2",
+    "FatherName": "MAHIR Sr.",
+    "MotherName": "MAHIR Mother",
+    "MobileNo": "222-333-4444",
+    "BloodGroup": "B-",
+    "NationalID": "ID654321",
+    "Passport": "P67890",
+    "DrivingLicense": "DL222",
+    "BirthCertificate": "BC54321",
+    "Height": "5'8\"",
+    "Weight": 170,
+    "MaritalStatus": "Married",
+    "Education": {
+      "Graduation": "Master of Science in Engineering",
+      "Results": "Distinction"
+    }
+  },
+  {
+    "Name": "RAKIB",
+    "DateOfBirth": "1985-12-10",
+    "Age": 37,
+    "Hometown": "CityC",
+    "Country": "CountryZ",
+    "District": "District3",
+    "FatherName": "RAKIB Sr.",
+    "MotherName": "RAKIB Mother",
+    "MobileNo": "333-444-5555",
+    "BloodGroup": "AB+",
+    "NationalID": "ID987654",
+    "Passport": "P54321",
+    "DrivingLicense": "DL333",
+    "BirthCertificate": "BC12345",
+    "Height": "6'0\"",
+    "Weight": 180,
+    "MaritalStatus": "Divorced",
+    "Education": {
+      "Graduation": "Bachelor of Business Administration",
+      "Results": "Pass"
+    }
+  },
+  {
+    "Name": "RIAZ",
+    "DateOfBirth": "1998-08-05",
+    "Age": 23,
+    "Hometown": "CityD",
+    "Country": "CountryW",
+    "District": "District4",
+    "FatherName": "RIAZ Sr.",
+    "MotherName": "RIAZ Mother",
+    "MobileNo": "444-555-6666",
+    "BloodGroup": "O-",
+    "NationalID": "ID567890",
+    "Passport": "P98765",
+    "DrivingLicense": "DL444",
+    "BirthCertificate": "BC67890",
+    "Height": "5'6\"",
+    "Weight": 150,
+    "MaritalStatus": "Single",
+    "Education": {
+      "Graduation": "Bachelor of Technology",
+      "Results": "Merit"
+    }
+  }
+    
