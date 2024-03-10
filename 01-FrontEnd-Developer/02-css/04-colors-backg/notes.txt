@@ -1,0 +1,17 @@
+* Color Names
+
+* Text Color
+
+* Border Color
+
+* Color Values
+= RGB, HEX, HSL
+
+* bg-color: 
+
+background-color
+background-image
+background-repeat
+background-attachment
+background-position
+background
