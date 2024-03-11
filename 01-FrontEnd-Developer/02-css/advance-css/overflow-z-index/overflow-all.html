@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            width: 300px;
+            height: 200px;
+            border: 2px solid #333;
+            margin: 20px;
+        }
+
+        .content {
+            width: 400px;
+            height: 300px;
+            background-color: lightblue;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Overflow Example</h1>
+
+    <p>The overflow property controls what happens if the content of an element is larger than the element itself.</p>
+
+    <!-- Overflow: visible -->
+    <div class="container">
+        <div class="content" style="overflow: visible;">
+            <p>If the content is larger than the container, it will overflow and be visible outside the container.</p>
+        </div>
+    </div>
+
+    <!-- Overflow: hidden -->
+    <div class="container">
+        <div class="content" style="overflow: hidden;">
+            <p>If the content is larger than the container, it will be clipped, and the overflow will be hidden.</p>
+        </div>
+    </div>
+
+    <!-- Overflow: scroll -->
+    <div class="container">
+        <div class="content" style="overflow: scroll;">
+            <p>If the content is larger than the container, scrollbars will be added to allow scrolling and view the hidden content.</p>
+        </div>
+    </div>
+
+    <!-- Overflow: auto -->
+    <div class="container">
+        <div class="content" style="overflow: auto;">
+            <p>If the content is larger than the container, scrollbars will be added only when necessary, providing automatic scrolling.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>

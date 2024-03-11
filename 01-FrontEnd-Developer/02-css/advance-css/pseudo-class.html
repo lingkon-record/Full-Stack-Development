@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes Example</title>
+    <style>
+        /* :hover pseudo-class */
+        a:hover {
+            color: #ff0000; /* Change text color to red on hover */
+            text-decoration: underline; /* Add underline on hover */
+        }
+
+        /* :active pseudo-class */
+        button:active {
+            background-color: #4caf50; /* Change background color when the button is clicked */
+            color: #ffffff; /* Change text color to white when the button is clicked */
+        }
+
+        /* :focus pseudo-class */
+        input:focus {
+            border: 2px solid #007bff; /* Add a blue border to the input when it is focused */
+            outline: none; /* Remove the default focus outline */
+        }
+
+        /* :nth-child() pseudo-class */
+        li:nth-child(even) {
+            background-color: #f2f2f2; /* Style even list items with a light gray background */
+        }
+
+        /* :first-child and :last-child pseudo-classes */
+        ul li:first-child {
+            font-weight: bold; /* Make the first list item bold */
+        }
+
+        ul li:last-child {
+            border-bottom: 0; /* Remove the bottom border from the last list item */
+        }
+
+        /* :not() pseudo-class */
+        input:not([type="submit"]) {
+            border: 1px solid #ccc; /* Add a border to input elements that are not submit buttons */
+        }
+    </style>
+</head>
+<body>
+    <!-- Your HTML content goes here -->
+    <h1>Hello, World!</h1>
+    <p>This is an example of pseudo-classes in CSS.</p>
+    <a href="#">Hover me</a>
+    <button>Click me</button>
+    <input type="text" placeholder="Focus me">
+    <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+        <!-- Add more list items as needed -->
+    </ul>
+</body>
+</html>
