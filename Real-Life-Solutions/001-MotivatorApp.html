@@ -1,0 +1,60 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Emotional Support App</title>
+</head>
+<body>
+
+<h2>Emotional Support App</h2>
+
+<label for="emotion">Select Your Emotion:</label>
+<select id="emotion">
+  <option value="sad">Sad</option>
+  <option value="happy">Happy</option>
+  <option value="depression">Depression</option>
+  <option value="cry">Cry</option>
+  <option value="hungry">Hungry</option>
+  <option value="exam">Exam Stress</option>
+</select>
+
+<button onclick="provideSupport()">Get Support</button>
+
+<p id="supportMessage"></p>
+
+<script>
+function provideSupport() {
+    const emotion = document.getElementById("emotion").value;
+    let supportMessage = "";
+
+    switch (emotion) {
+        case "sad":
+            supportMessage = "It's okay to feel sad sometimes. Remember that tomorrow is a new day.";
+            break;
+        case "happy":
+            supportMessage = "Embrace your happiness and spread positivity around you!";
+            break;
+        case "depression":
+            supportMessage = "You're not alone. Reach out to someone you trust and seek professional help if needed.";
+            break;
+        case "cry":
+            supportMessage = "Crying can be a healthy way to release emotions. Take your time to heal.";
+            break;
+        case "hungry":
+            supportMessage = "Listen to your body's needs and nourish yourself with healthy food.";
+            break;
+        case "exam":
+            supportMessage = "You've prepared well for your exams. Stay calm, take deep breaths, and do your best!";
+            break;
+        default:
+            supportMessage = "Remember, it's okay to not be okay. Reach out for support when you need it.";
+            break;
+    }
+
+    document.getElementById("supportMessage").textContent = supportMessage;
+}
+</script>
+
+</body>
+</html>
