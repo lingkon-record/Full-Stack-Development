@@ -1,0 +1,40 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tech Learning Guide</title>
+</head>
+<body>
+  <label for="index">Enter an index:</label>
+  <input type="number" id="index" min="0" max="7">
+  <button onclick="suggestTech()">Get Suggestion</button>
+  <p id="suggestion"></p>
+
+  <script>
+    const techArray = ["HTML", "CSS", "JavaScript", "ES6", "ReactJS", "nextjs", "Tailwind", "typescript", "redux"];
+
+    function suggestTech() {
+      const index = document.getElementById("index").value;
+      const suggestionElement = document.getElementById("suggestion");
+
+      if (index >= 0 && index < techArray.length) {
+        const techToLearn = techArray[index];
+        let prerequisites = "";
+
+        for (let i = 0; i < index; i++) {
+          if (i === 0) {
+            prerequisites += techArray[i];
+          } else {
+            prerequisites += ", " + techArray[i];
+          }
+        }
+
+        suggestionElement.textContent = `You should learn ${techToLearn}. Prerequisites: ${prerequisites}`;
+      } else {
+        suggestionElement.textContent = "Please enter a valid index.";
+      }
+    }
+  </script>
+</body>
+</html>
