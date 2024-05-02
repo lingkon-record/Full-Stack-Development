@@ -1,7 +1,5 @@
-// Get the current date
 var currentDate = new Date();
 
-// Replace these values with your birthdate
 var birthYear = 2001;
 var birthMonth = 7; // January is 0, February is 1, ..., December is 11
 var birthDay = 23;
@@ -15,4 +13,4 @@ var difference = currentDate - birthDate;
 // Convert the difference from milliseconds to years
 var age = Math.floor(difference / (1000 * 60 * 60 * 24 * 365.25)); // 365.25 days in a year to account for leap years
 
-console.log("Your age is: " + age);
+console.log("Lingkon, Your age is: " + age);
