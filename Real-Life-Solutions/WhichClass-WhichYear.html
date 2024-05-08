@@ -1,0 +1,69 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Type classs get year</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    label {
+      margin-right: 10px;
+    }
+
+    input {
+      margin-bottom: 10px;
+    }
+
+    #results {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Class Details</h1>
+  <label for="className">Class Name (Digit):</label>
+  <input type="number" id="className">
+  <br>
+  <button onclick="handleSubmit()">Submit</button>
+
+  <div id="results"></div>
+
+  <script>
+    const classData = [
+      { className: "1", year: 2020, memories: "In Class 1, we learned how to read and write. It was a thrilling experience to enter the world of literacy and imagination." },
+      { className: "2", year: 2021, memories: "Class 2 was filled with adventures in math and science. We explored the wonders of numbers and the mysteries of the universe." },
+      { className: "3", year: 2022, memories: "Class 3 was a year of friendship and discovery. We made lifelong friends and discovered new passions and interests." },
+      // Add more class objects with memories here
+    ];
+
+    function handleSubmit() {
+      const classNameInput = document.getElementById('className').value.trim();
+      const resultsDiv = document.getElementById('results');
+      resultsDiv.innerHTML = '';
+
+      const matchingClasses = classData.filter(classObj => {
+        return classObj.className === classNameInput;
+      });
+
+      if (matchingClasses.length > 0) {
+        const classDetails = document.createElement('div');
+        const className = document.createElement('p');
+        className.textContent = `Class Name: ${matchingClasses[0].className}, Year: ${matchingClasses[0].year}`;
+        const memories = document.createElement('p');
+        memories.textContent = `Memories: ${matchingClasses[0].memories}`;
+        classDetails.appendChild(className);
+        classDetails.appendChild(memories);
+        resultsDiv.appendChild(classDetails);
+      } else {
+        const noResults = document.createElement('p');
+        noResults.textContent = 'No matching class found.';
+        resultsDiv.appendChild(noResults);
+      }
+    }
+  </script>
+</body>
+</html>
